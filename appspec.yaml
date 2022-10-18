@@ -3,14 +3,6 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www
-permissions:
-  - object: /var/www
-    pattern: '**'
-    owner: root
-    group: root
-    mode: 755
-    type:
-      - file
 hooks:
   ApplicationStop:
     - location: scripts/stop.sh
