@@ -6,3 +6,4 @@
 # npm install
 
 echo "Install" 
+echo "git pull --force"
